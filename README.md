@@ -2,7 +2,7 @@
 
 ## 概述
 
-DataMachine-for-Anonymous 是一个多功能的数据处理和分析工具，旨在高效地进行pandas与数据库之间的ETL。
+dataMachine-for-anonymous 是一个多功能的数据处理和分析工具，旨在高效地进行pandas与数据库之间的ETL。
 
 ## 功能
 
@@ -17,7 +17,7 @@ DataMachine-for-Anonymous 是一个多功能的数据处理和分析工具，旨
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/jixiaoyu0209/datamachine_for_anonymous.git
+   git clone https://github.com/jixiaoyu0209/dataMachine-for-anonymous.git
    cd datamachine_for_anonymous
    ```
 
@@ -28,7 +28,7 @@ DataMachine-for-Anonymous 是一个多功能的数据处理和分析工具，旨
 
 ## 用法
 
-以下是使用 DataMachine for Anonymous 处理数据的基本示例，具体代码见 `example/6.py`。
+以下是使用 dataMachine-for-anonymous 处理数据的基本示例，具体代码见 `example/6.py`。
 
 ### 示例代码
 

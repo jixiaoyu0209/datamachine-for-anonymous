@@ -49,7 +49,7 @@ class SqlHelper:
             self.logger.error(f"Unsupported dialect: {dialect}")
             raise NotImplementedError(f"Unsupported dialect: {dialect}")
 
-    def read_sql(self, sql: str) -> pd.DataFrame:
+    def _read_sql(self, sql: str) -> pd.DataFrame:
         """私有方法：执行SQL查询并返回DataFrame
 
         :param sql: 要执行的SQL查询。
@@ -86,7 +86,7 @@ class SqlHelper:
         self.logger.info(f"    执行文件名：{fback_filename}， 行号：{fback_lineno}")
 
         def execute_query(sql):
-            df = self.read_sql(sql)
+            df = self._read_sql(sql)
             return df
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
