@@ -1,19 +1,46 @@
-.DS_Store/
+# macOS 系统生成的隐藏文件
+.DS_Store
+
+# Python 编译文件
 *.py[cod]
+
+# PyCharm 项目文件
 .idea/
+
+# Python 虚拟环境
+venv/
+
+# 配置文件
+prod_config.py
+
+# 日志文件和目录
+.logs/
+*.log
+
+# 测试文件
+test.py
+
+# 备份文件
+*.pybk
+
+# 数据库文件
+*.db
+
+# 图片文件
+*.jpg
+
+# CSV 文件
 *.csv
+
+# 压缩文件
 *.zip
+
+# Excel 文件
 *.xlsx
 *.xls
+
+# XML 文件
 *.xml
+
+# 视频文件
 *.mp4
-venv
-prod_config.py
-*.conf
-*.logs/
-src/logs/
-*.log
-test.py
-*.pybk
-*.jpg
-*.db
