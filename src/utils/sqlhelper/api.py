@@ -53,7 +53,6 @@ class SqlHelper:
         """私有方法：执行SQL查询并返回DataFrame
 
         :param sql: 要执行的SQL查询。
-        :param sql_name: SQL查询的名称，用于日志记录。
         :return: pd.DataFrame: SQL查询结果。
         :raises DatabaseError: 如果数据库操作失败。
         """
