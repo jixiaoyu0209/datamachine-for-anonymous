@@ -35,8 +35,8 @@ dataMachine-for-anonymous 是一个多功能的数据处理和分析工具，旨
 ```python
 import pandas as pd
 
-from config import default_config
-from utils import SqlHelper, SqlConfig
+from src.config import default_config
+from src.utils import SqlHelper, SqlConfig
 
 sqlinstance_info = SqlHelper(SqlConfig(**default_config.INFO))
 

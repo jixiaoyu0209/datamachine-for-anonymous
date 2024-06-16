@@ -22,9 +22,10 @@ class ProductionConfig(BaseConfig, FmProductionConfig):
 
 
 class DevelopmentConfig(BaseConfig, FmDevelopmentConfig):
-    INFO = {}
-    INFO["db"] = "info"
-    INFO["dialect"] = "sqlite3"
+    INFO = {
+        "db": "info",
+        "dialect": "sqlite3"
+    }
 
 
 class TestConfig(BaseConfig, FmTestConfig):

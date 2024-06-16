@@ -8,8 +8,8 @@
 
 import pandas as pd
 
-from config import default_config
-from utils import SqlHelper, SqlConfig
+from src.config import default_config
+from src.utils import SqlHelper, SqlConfig
 
 sqlinstance_info = SqlHelper(SqlConfig(**default_config.INFO))
 
